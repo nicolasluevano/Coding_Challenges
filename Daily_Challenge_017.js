@@ -10,3 +10,5 @@ function detect(comment) {
      return comment.startsWith(question) ? true : false
    
 }
+
+![IMG_0023](https://user-images.githubusercontent.com/64442298/111058896-7cb8e000-8446-11eb-82df-c9a8b50dfe89.PNG)

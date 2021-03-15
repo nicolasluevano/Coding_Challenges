@@ -10,3 +10,5 @@ function detect(comment) {
      return comment.startsWith(question) ? true : false
    
 }
+
+

@@ -6,4 +6,5 @@ function digitize(n) {
     let result = arr.map( a => +a)
     
     return result
+    
     }

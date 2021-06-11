@@ -13,8 +13,13 @@
 
 function dbSort(a){
 
+    //create array that sorts if type is a number
     let num = a.filter( a => typeof a == 'number').sort((a,b) => a - b)
+
+    //create array that sorts if type is a string
     let letter = a.filter( a => typeof a == 'string').sort()
+
+    //combine both arrays
      console.log(num.concat(letter))
     }
     // dbSort([6, 2, 3, 4, 5])

@@ -15,3 +15,15 @@ function trouble(x,t){
     return x
  }
  trouble([4, 1, 1, 1, 4],2)
+
+//  Write a function that appends the items from sequence 2 onto sequence 1, returning the newly formed sequence. Your function should also be able to handle nested sequences.
+
+// All inputs will be arrays/nested arrays.
+ function appendArrays (arr1, arr2){
+
+    //combine both arrays using concat method
+    let result = arr1.concat(arr2)
+    result
+
+}
+appendArrays([1,2], [2,4])

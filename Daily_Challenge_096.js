@@ -18,3 +18,18 @@ function getMissingElement(superImportantArray){
     console.log(+missing.join())   
 }
 getMissingElement( [0,5,1,3,2,9,7,6,4])
+
+//Lost number in number sequence
+function findDeletedNumber(arr, mixArr){
+
+    //sort mixed array
+    mixArr = mixArr.sort()
+    
+    //filter out the number than is not in the mixed array
+    let deleted = arr.filter( e => !mixArr.includes(e))
+
+    //print number 
+    console.log(+deleted.join())
+
+}
+findDeletedNumber([1,2,3,4,5],[3,4,1,5])

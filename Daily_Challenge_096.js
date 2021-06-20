@@ -33,3 +33,15 @@ function findDeletedNumber(arr, mixArr){
 
 }
 findDeletedNumber([1,2,3,4,5],[3,4,1,5])
+
+
+//Convert an array of strings to an array of numbers
+
+function toNumberArray(stringarray){
+
+    //iterate through each element in array and turn from string to integer
+   let arr = stringarray.map( e => +e)
+   //print new array
+   arr
+}
+toNumberArray(["1","2","3"])
